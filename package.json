@@ -1,0 +1,24 @@
+{
+  "name": "figma_tokens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "style-dictionary build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kontactus/figma_tokens.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kontactus/figma_tokens/issues"
+  },
+  "homepage": "https://github.com/kontactus/figma_tokens#readme",
+  "devDependencies": {
+    "style-dictionary": "^3.7.1"
+  }
+}

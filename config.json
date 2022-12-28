@@ -1,0 +1,27 @@
+{
+  "source": ["tokens/**/*.json"],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "files": [
+        {
+          "format": "scss/variables",
+          "destination": "lib/_tokens.scss"
+        }
+      ]
+    },
+    "javascript": {
+      "transformGroup": "js",
+      "files": [
+        {
+          "format": "javascript/es6",
+          "destination": "lib/tokens.js"
+        },
+        {
+          "format": "typescript/es6-declarations",
+          "destination": "lib/tokens.d.ts"
+        }
+      ]
+    }
+  }
+}
